@@ -9,7 +9,7 @@ import static org.hamcrest.Matchers.*;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class ReverseStringTests {
-    ReverseString sut;
+    private ReverseString sut;
 
     @BeforeAll
     public static void startTests() {

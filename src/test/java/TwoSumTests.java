@@ -8,8 +8,8 @@ import java.time.Duration;
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import static org.junit.jupiter.api.Assertions.assertTimeout;
 
-public class twoSumTests {
-    TwoSum sut;
+public class TwoSumTests {
+    private TwoSum sut;
 
     @BeforeAll
     public static void startTests() {
